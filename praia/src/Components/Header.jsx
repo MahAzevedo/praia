@@ -4,7 +4,9 @@ import styles from './Header.module.css'
 const Header = () => {
   return (
     <header className={styles.header}>
-      <nav></nav>
+      <nav>
+        <p>sdfkgsldjfgsdjlg</p>
+      </nav>
     </header>
   );
 };
