@@ -12,13 +12,10 @@ const Header = () => {
   return (
     <header className={styles.header}>
         <nav className={styles.nav}>
-            {/* <Link className={styles.logo} to="/" aria-label="Praia"> */}
-            {/* <Logo /> */}
+            <Link className={styles.logo} to="/" aria-label="Praia"> 
+                <Logo />
             {/* <img src={Logo} alt="Logo da Praia" /> */}
-            <Link className={styles.logo} to="/" aria-label="Praia">
-                <img src={Logo} alt="Logo da Praia" />
-            </Link>
-            {/* </Link> */}  
+            </Link>  
           <h1>Praia</h1>
           <p>Hospedagem</p>  
         </nav>

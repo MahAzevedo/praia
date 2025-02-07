@@ -14,3 +14,7 @@
     align-items: center;
     height: 4rem;
 }
+
+.logo {
+    padding: 0.5rem 0;
+}
