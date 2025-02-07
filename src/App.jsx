@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+
 // import reactLogo from './assets/react.svg'; exemplo de imagem 
 // import viteLogo from '/vite.svg';
 
@@ -12,7 +13,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
           <Routes>
-            {/* <Route path="/" element={<Home />}/> */}
+            <Route path="/" element={<Home />}/>
           </Routes>
         <Footer />
       </BrowserRouter>
