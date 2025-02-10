@@ -11,7 +11,7 @@ const Header = () => {
                 <Logo />
             </Link>   */}
             <NavLink>
-              <img src={Logo} alt="Logo da Praia" />
+              <img src={Logo} alt="Logo da Praia" /> {/* trocar logo */}
             </NavLink>
           <h1>Praia</h1>
           <p>Hospedagem</p>  
