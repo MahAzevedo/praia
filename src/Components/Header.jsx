@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../Assets/logo.jpeg';
+// import Logo from '../Assets/logo.jpeg';
 
 const Header = () => {
   return (
@@ -12,7 +12,8 @@ const Header = () => {
             </Link>   */}
             <Link> 
               <NavLink>
-              Praia<img src={Logo} alt="Logo da Praia" />
+                Praia
+                {/* <img src={Logo} alt="Logo da Praia" /> */}
                 {/* trocar logo */}
               </NavLink>
             </Link>

@@ -13,9 +13,11 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Header />
+        <main className="AppBody">
           <Routes>
             {/* <Route path="/" element={<Home />}/> */}
           </Routes>
+        </main>
         <Footer />
       </BrowserRouter>
     </div>
