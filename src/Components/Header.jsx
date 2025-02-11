@@ -10,9 +10,12 @@ const Header = () => {
             {/* <Link className={styles.logo} to="/" aria-label="Praia"> 
                 <Logo />
             </Link>   */}
-            <NavLink>
-              <img src={Logo} alt="Logo da Praia" /> {/* trocar logo */}
-            </NavLink>
+            <Link> 
+              <NavLink>
+              Praia<img src={Logo} alt="Logo da Praia" />
+                {/* trocar logo */}
+              </NavLink>
+            </Link>
           <h1>Praia</h1>
           <p>Hospedagem</p>  
         </nav>
