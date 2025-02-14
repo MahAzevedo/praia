@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+// import Logo from '../Assets/logo.jpeg?react'; funcionando ok
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <p>Praia - Site para hospedagem.</p>
       <p>Instagram</p>
       <p>Contato: 9999-9999</p>
-      <img src="/Assets/img-instagram.jpeg" alt="Logo do Instagram" /> 
+      {/* <img src={Logo} alt="Logo do Instagram" />  */}
     </footer>
   );
 };

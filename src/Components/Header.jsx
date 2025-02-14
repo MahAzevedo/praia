@@ -1,24 +1,24 @@
 import React from 'react';
 import styles from './Header.module.css';
 import { Link, NavLink } from 'react-router-dom';
-// import Logo from '../Assets/logo.jpeg';
+// import Logo from '../Assets/logo.jpeg?react';  funcionando ok
 
 const Header = () => {
   return (
     <header className={styles.header}>
         <nav className={styles.nav}>
-            {/* <Link className={styles.logo} to="/" aria-label="Praia"> 
+             {/* <Link className={styles.logo} to="/" aria-label="Praia"> 
                 <Logo />
-            </Link>   */}
+            </Link>    */}
             <Link> 
               <NavLink>
-                Praia
+                Logo
                 {/* <img src={Logo} alt="Logo da Praia" /> */}
                 {/* trocar logo */}
               </NavLink>
             </Link>
-          <h1>Praia</h1>
-          <p>Hospedagem</p>  
+            <Link>Login</Link>
+
         </nav>
     </header>
   );
