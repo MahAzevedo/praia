@@ -11,7 +11,7 @@ const Header = () => {
                 Logo - Praia
             </Link>
             <Link className={styles.login}>
-                Login | Entrar
+                Login | Nome
             </Link>
         </nav>
     </header>
