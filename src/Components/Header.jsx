@@ -8,10 +8,10 @@ const Header = () => {
     <header className={styles.header}>
         <nav className={styles.nav}>
             <Link className={styles.logo}>    
-                Logo - Praia
+                Logo
             </Link>
             <Link className={styles.login}>
-                Login | Nome
+                Login | Entrar
             </Link>
         </nav>
     </header>
