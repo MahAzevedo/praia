@@ -21,3 +21,18 @@
     /* padding: 0.5rem 0; */
     padding: 1rem 1rem 1rem 1rem;
 }
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login::after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    margin-left: 0.5rem;
+    position: relative;
+    top: -1px;
+}
