@@ -1,11 +1,15 @@
 import React from 'react';
 import styles from './Home.module.css';
+import FotoCapa from '../Assets/fotoCapaThayanaAlvarenga.jpg?react';
 
 const Home = () => {
   return (
     <section className={styles.home}>
-      <div className={styles.photo}></div>
-      
+      <div className={styles.photo}>
+        {/* vídeo praia de arraial entra aqui */}
+        {/* <FotoCapa /> */}
+        <img src={FotoCapa} alt="Foto de Arraial de Cabo" />
+      </div>
     </section>
   );
 };
@@ -21,3 +25,6 @@ export default Home;
 // contato para hospedagem;
 // rede social da hospedagem;
 // contato do site;
+
+
+

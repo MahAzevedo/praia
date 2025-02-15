@@ -10,6 +10,9 @@ const Header = () => {
             <Link className={styles.logo}>    
                 Logo
             </Link>
+            <Link className={styles.galery}>
+                Galeria
+            </Link>
             <Link className={styles.login}>
                 Login | Entrar
             </Link>
