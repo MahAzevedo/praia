@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import FotoCapa from '../Assets/fotoCapaThayanaAlvarenga.jpg?react';
+import PhotoCapa from '../Assets/fotoCapaThayanaAlvarenga.jpg?react';
 
 const Home = () => {
   return (
@@ -8,7 +8,8 @@ const Home = () => {
       <div className={styles.photo}>
         {/* vídeo praia de arraial entra aqui */}
         {/* <FotoCapa /> */}
-        <img src={FotoCapa} alt="Foto de Arraial de Cabo" />
+        <img className={styles.photoCapa} src={PhotoCapa} alt="Foto de Arraial de Cabo" />
+        <p>Praia de Araial do Cabo</p>
       </div>
     </section>
   );
