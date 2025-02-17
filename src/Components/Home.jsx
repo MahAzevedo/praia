@@ -2,14 +2,19 @@ import React from 'react';
 import styles from './Home.module.css';
 import PhotoCapa from '../Assets/fotoCapaThayanaAlvarenga.jpg?react';
 
+// import Banner from './Banner';
+
 const Home = () => {
   return (
     <section className={styles.home}>
-      <div className={styles.photo}>
-        {/* vídeo praia de arraial entra aqui */}
-        {/* <FotoCapa /> */}
+      <div>
+        {/* <Banner /> */}
+        {/* vídeo infinito da praia de arraial aqui */}
         <img className={styles.photoCapa} src={PhotoCapa} alt="Foto de Arraial de Cabo" />
-        <p>Praia de Araial do Cabo</p>
+      </div>
+      <div className={styles.feedPhotos}>
+        <h1>Praia de Arraial do Cabo</h1>
+        <p>Arraial do Cabo é um município brasileiro situado na Região dos Lagos do estado do Rio de Janeiro. Trata-se de uma cidade costeira, possuindo uma altitude média de apenas oito metros. <br/> Fonte: Wikipédia</p>
       </div>
     </section>
   );
