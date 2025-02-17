@@ -14,7 +14,8 @@ const Home = () => {
       </div>
       <div className={styles.feedPhotos}>
         <h1>Praia de Arraial do Cabo</h1>
-        <p>Arraial do Cabo é um município brasileiro situado na Região dos Lagos do estado do Rio de Janeiro. Trata-se de uma cidade costeira, possuindo uma altitude média de apenas oito metros. <br/> Fonte: Wikipédia</p>
+        <p>Arraial do Cabo é um município brasileiro situado na Região dos Lagos do estado do Rio de Janeiro. Trata-se de uma cidade costeira, possuindo uma altitude média de apenas oito metros. 
+        <br/> Fonte: Wikipédia</p>
       </div>
     </section>
   );

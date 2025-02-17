@@ -7,13 +7,14 @@ const Header = () => {
   return (
     <header className={styles.header}>
         <nav className={styles.nav}>
+          <Link to="/">Home</Link>
             <Link className={styles.logo}>    
                 Logo
             </Link>
             <Link className={styles.galery}>
                 Galeria
             </Link>
-            <Link className={styles.login}>
+            <Link to="/home" className={styles.login}>
                 Login | Entrar
             </Link>
         </nav>
