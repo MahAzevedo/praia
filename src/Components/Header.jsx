@@ -7,16 +7,18 @@ const Header = () => {
   return (
     <header className={styles.header}>
         <nav className={styles.nav}>
-          <Link to="/">Home</Link>
-            <Link className={styles.logo}>    
+          <ul>
+            <li>
+              <NavLink to="/" className={styles.logo}>
                 Logo
-            </Link>
-            <Link className={styles.galery}>
-                Galeria
-            </Link>
-            <Link to="/home" className={styles.login}>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/" className={styles.logo}>
                 Login | Entrar
-            </Link>
+              </NavLink>
+            </li>
+          </ul> 
         </nav>
     </header>
   );
