@@ -10,7 +10,7 @@ const Header = () => {
         <h1>Renata Bahiense  </h1>
         {/* <h2>aluguel de casa para temporada</h2> */}
       </NavLink>
-
+      <div className={styles.navHeader}>
         <nav className={styles.nav}>
           <ul className={styles.headerUl}>
             <li className={styles.headerUl}>
@@ -40,6 +40,8 @@ const Header = () => {
             </li>
           </ul> 
         </nav>
+      </div>
+        
     </header>
   );
 };

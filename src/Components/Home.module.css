@@ -16,8 +16,8 @@
     padding: 3rem 3rem 3rem 3rem;
     height: 10rem;
     font-size: 2rem;
-    background: black;
-    color: aquamarine;
+    /* background: black; */
+    /* color: aquamarine; */
 
     /* color: var(--red); */
     letter-spacing: 4px;
@@ -33,6 +33,6 @@
     text-align: center;
     height: 9rem;
     font-size: 2rem;
-    background: black;
-    color: aquamarine;
+    /* background: black; */
+    /* color: aquamarine; */
 }
