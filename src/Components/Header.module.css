@@ -4,26 +4,46 @@
     width: 100%;
     z-index: 100;
     top: 0px;
-    background: gray;
-    height: 4rem;
-    /* padding: 0.5rem 0; */
+    background: #5885a1;
+    padding: 0.5rem 0;
+    /* height: 4rem; */
     /* padding: 1.5rem 1rem 1rem 1rem; */
 }
 
 .logo {
     display: flex;
-    flex-direction: row;
-    padding: 1rem 1rem 1rem 3rem;
+    flex-direction: column;
+    padding-top: 0.3rem;
+}
+
+.LogoMarca {}
+
+@media (max-width: 40rem) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.3rem;
+    }
 }
 
 /* .logo h1 {
-    padding: 0rem 1rem 0rem 2rem;
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 0rem 2rem;
+    letter-spacing: 4px;
+
+    padding: 0.2rem 1rem 0.5rem 1rem;
+    font-size: 15px;
+    letter-spacing: 2px;
 } */
 
-/* .logo h2 {
-    padding: 0.2rem 0.7rem 0rem 2rem;
-}  */
+.logo h2 {
+    /* padding: 0.2rem 1rem 1.5rem 1rem;
+    font-size: 15px;
+    letter-spacing: 5px; */
+
+    padding: 0.2rem 1rem 1.5rem 0rem;
+    font-size: 15px;
+    letter-spacing: 4px;
+} 
 
 /* .logo::after {
     content: '';
@@ -35,24 +55,36 @@
     top: -1px;
 } */
 
-.navHeader {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem 1rem 1rem 1rem;
-}
-
 .nav {
+    /* display: flex;
+    flex-direction: row;
+    padding: 0rem 5rem 0.3rem 2rem; */
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    padding: 0rem 5rem 0rem 1rem;
 }
 
-.headerUl {
+.nav ul {
     display: flex;
     flex-direction: row;
-    padding: 0rem 0rem 0rem 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 0rem 4rem 0rem 1rem
 }
+
+/* .nav li {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    padding: 0rem 2rem 0rem 1rem;
+} */
+
+/* .headerUl {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    padding: 0rem 2rem 0rem 1rem;
+} */
 
 /* .headerUl::after {
     content: '';
