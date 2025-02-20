@@ -1,16 +1,19 @@
 import React from 'react';
 import styles from './Header.module.css';
 import { Link, NavLink } from 'react-router-dom';
-// import Logo from '../Assets/logo.jpeg?react';  funcionando ok
+import Banner from './Banner';
+// import Logo from '../Assets/logo.jpeg?react'; 
 
 const Header = () => {
   return (
     <header className={styles.header}>
+      <Banner />
       <NavLink to="/" className={styles.logo}>
-        <h1>Renata Bahiense  </h1>
-        {/* <h2>aluguel de casa para temporada</h2> */}
+      
+        <h1>Renata Bahiense</h1>
+        <h2>aluguel de casa para temporada</h2>
       </NavLink>
-      {/* <div className={styles.navHeader}> */}
+      
         <nav className={styles.nav}>
           <ul className={styles.headerUl}>
             <li className={styles.headerUl}>
@@ -40,7 +43,7 @@ const Header = () => {
             </li>
           </ul> 
         </nav>
-      {/* </div>    */}
+      {/* <Banner /> */}
     </header>
   );
 };
