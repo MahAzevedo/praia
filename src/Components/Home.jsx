@@ -6,10 +6,8 @@ const Home = () => {
   return (
     <section className={styles.home}>
       <div className={styles.feedPhotos}>
-        <h1>Praia de Arraial do Cabo</h1>
-        {/* <p>
-          Arraial do Cabo é um município brasileiro situado na Região dos Lagos do estado do Rio de Janeiro. 
-        </p> */}
+        <h1></h1>
+        <p></p>
         <ul>
           <li></li>
         </ul>
