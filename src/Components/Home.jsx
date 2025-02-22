@@ -18,15 +18,7 @@ const Home = () => {
 
 export default Home;
 
-// Single page:
-// Tudo no NavLink;
-// Vídeo da praia no corpo do site;
-// Opções do que fazer, onde comer, passeios de bugre e parcerias;
-// mapa de como chegar na casa e da cidade; 
-// depoimento de clientes em carrossel;
-// contato para hospedagem;
-// rede social da hospedagem;
-// contato do site;
+
 
 
 

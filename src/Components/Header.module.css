@@ -9,7 +9,11 @@
     /* height: 4rem; */
     /* padding: 1.5rem 1rem 1rem 1rem; */
 }
-
+@media (max-width: 90rem) {
+    .logo {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 48rem) {
     .logo {
         max-width: 10rem;
