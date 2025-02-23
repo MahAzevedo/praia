@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
 import { Link, NavLink } from 'react-router-dom';
-// import Banner from './Banner';
-// import LogoMarca from '../Assets/logo.png?react';
 // import Logo from '../Assets/logo.jpeg?react'; 
 
 const Header = () => {
@@ -11,7 +9,6 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul className={styles.nav}>
             <li className={styles.nav}>
-            {/* <img className={styles.photoLogo} src={LogoMarca} alt="Foto da Logo"/> */}
               <NavLink to="/" className={styles.logo}>
                 <h1 className={styles.logo}>
                    - Renata Bahiense - 
@@ -48,7 +45,6 @@ const Header = () => {
             </li>
           </ul> 
         </nav>
-      {/* <Banner /> */}
     </header>
   );
 };
