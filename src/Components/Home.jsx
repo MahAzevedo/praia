@@ -1,18 +1,15 @@
 import React from 'react';
 import styles from './Home.module.css';
 import Banner from './Banner';
+import House from './House/House';
 
 const Home = () => {
   return (
     <section className={styles.home}>
       <Banner />
       <div className={styles.feedPhotos}>
-        <h1></h1>
-        <p></p>
-        <ul>
-          <li></li>
-        </ul>
       </div>
+      <House />
     </section>
   );
 };
