@@ -1,42 +1,18 @@
 .containerAbout {
-    /* background: #ffffff;  */
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* gap: 3.75rem; */
-    /* justify-items: center;  */
     display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     background: #ffffff; 
     color: brown;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding-top: 3rem;
 }
 
 .containerH1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding-top: 3rem;
-
-    /* font-size: 2.5rem; */
-    /* justify-content: center; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
-
-    
-    /* justify-content: center; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
-
-
 }
 
 .containerP {
-    /* color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    gap: 3.75rem;
-    justify-items: center;
-    padding: 1.5rem 21rem 4rem 21rem; */
-
     height: 10rem;
     padding: 1rem 1rem;
     font-size: 1.5rem;

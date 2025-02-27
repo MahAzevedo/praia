@@ -6,7 +6,6 @@ const House = () => {
     <section className={styles.containerHouse}>
       <h1 className={styles.houseH1}> - Casa - Fotos & Vídeos - </h1>
       <ul className={styles.houseSlider}>
-        <li>Casa - Fotos & Vídeos</li>
         <li>Aqui entra um COMPONENTE DE SLIDER carrossel</li>
       </ul>
     </section>
