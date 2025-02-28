@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import Banner from './Banner';
 import House from './House/House';
 import About from './About/About';
+import Tourism from './Tourism/Tourism';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       </div>
       <House />
       <About />
+      <Tourism />
     </section>
   );
 };
