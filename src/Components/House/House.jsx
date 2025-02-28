@@ -3,12 +3,12 @@ import styles from './House.module.css';
 
 const House = () => {
   return (
-    <section className={styles.container}>
-      <h1 className={styles.house}>Casa</h1>
-      <p className={styles.houseP}>
-        A casa é espaçosa e hospeda 6 pessoas confortavelmente, tendo área de lazer externa com churrasqueira e banheiro completo e ar condicionado em todos os quartos. Cozinha totalmente equipada.
-        A 5 minutos de distância da Praia de Arraial do Cabo.
-      </p>
+    <section className={styles.containerHouse}>
+      <h1 className={styles.houseH1}> - Casa - Fotos & Vídeos - </h1>
+      <ul className={styles.houseSlider}>
+        <li>Casa - Fotos & Vídeos</li>
+        <li>Aqui entra um COMPONENTE DE SLIDER carrossel</li>
+      </ul>
     </section>
   );
 };

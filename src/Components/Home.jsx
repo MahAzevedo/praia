@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Home.module.css';
 import Banner from './Banner';
 import House from './House/House';
+import About from './About/About';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <div className={styles.feedPhotos}>
       </div>
       <House />
+      <About />
     </section>
   );
 };
