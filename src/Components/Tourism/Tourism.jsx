@@ -8,7 +8,7 @@ const Tourism = () => {
         <h1 className={styles.containerTourismH1}>
             - Turismo - 
         </h1>
-        <SliderTourismPhotos /> 
+        <SliderTourismPhotos />
     </section>
   );
 };
