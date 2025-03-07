@@ -14,4 +14,3 @@ const Tourism = () => {
 };
 
 export default Tourism;
-SliderTourismPhotos.jsx
