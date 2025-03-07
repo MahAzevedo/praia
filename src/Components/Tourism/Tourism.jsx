@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Tourism.module.css';
+import CarouselTourism from './CarouselTourism';
 
 const Tourism = () => {
   return (
@@ -7,6 +8,7 @@ const Tourism = () => {
       <h1 className={styles.containerTourismH1}>
         - Turismo - 
       </h1>
+      <CarouselTourism />
     </section>
   );
 };
