@@ -8,3 +8,8 @@
 
 /* .carouselItem {} */
 
+.carouselExampleIndicators {}
+
+.imgTourism {
+    background-image: url('../Assets/arraial3.jpg);
+}

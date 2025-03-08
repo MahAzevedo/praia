@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './CarouselTourism.module.css';
 
-// <h1 className={styles.containerTourismH1}>
-
 const CarouselTourism = () => {
   return (
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
