@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './CarouselTourism.module.css';
+// import arraial3 from '/arraial3.jpg?react';
+import arraial3 from '../'
 
 const CarouselTourism = () => {
   return (
@@ -11,7 +13,7 @@ const CarouselTourism = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="img1..."/>
+      <img className={styles.imgTourism} src="..." class="d-block w-100" alt="img1..."/>
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="img2..."/>
