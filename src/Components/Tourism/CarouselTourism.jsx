@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './CarouselTourism.module.css';
 // import arraial3 from '/arraial3.jpg?react';
-import arraial3 from '../'
+// import arraial3 from '../'
 
 const CarouselTourism = () => {
   return (
