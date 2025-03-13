@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Banner.module.css';
-// import PhotoCapa from '../Assets/fotoCapaThayanaAlvarenga.jpg?react';
 import PraiaGrande from '../Assets/praia-grande.webp?react';
 
 
