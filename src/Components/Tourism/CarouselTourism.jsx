@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './CarouselTourism.module.css';
-// import arraial3 from '/arraial3.jpg?react';
+// import arraial3 from '/arraial3.jpg';
 // import arraial3 from '../'
+// import reactLogo from './assets/react.svg';
 
 const CarouselTourism = () => {
   return (
