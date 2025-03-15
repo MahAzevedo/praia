@@ -6,6 +6,9 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 
+import Banner from './Components/Banner';
+import { Carousel } from 'react-bootstrap';
+
 
 // import reactLogo from './assets/react.svg'; exemplo de imagem 
 // import viteLogo from '/vite.svg';
@@ -14,6 +17,8 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
+      <Carousel />
+      <Banner />
         <Header />
         <main className="AppBody">
           <Routes>
@@ -28,6 +33,9 @@ const App = () => {
 
 export default App;
 
+
+// import reactLogo from './assets/react.svg'; exemplo de imagem 
+// import viteLogo from '/vite.svg';
 
 // function App() {
 //   const [count, setCount] = useState(0)

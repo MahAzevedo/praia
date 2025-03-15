@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import Banner from './Banner';
+// import Banner from './Banner';
 import House from './House/House';
 import About from './About/About';
 import Tourism from './Tourism/Tourism';
@@ -8,9 +8,9 @@ import Tourism from './Tourism/Tourism';
 const Home = () => {
   return (
     <section className={styles.home}>
-      <Banner />
-      <div className={styles.feedPhotos}>
-      </div>
+      {/* <Banner /> */}
+      {/* <div className={styles.feedPhotos}> */}
+      {/* </div> */}
       <House />
       <About />
       <Tourism />
