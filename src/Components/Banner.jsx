@@ -3,14 +3,12 @@ import styles from './Banner.module.css';
 import PraiaGrande from '../Assets/praia-grande.webp?react';
 import praiaCapa from '../Assets/praiaCapa.jpg?react';
 
-import useEmblaCarousel from 'embla-carousel-react';
-import { Carousel } from 'react-bootstrap';
-// import { Carousel } from 'react-bootstrap';
+
+
 
 const Banner = () => {
   return (
   <>
-  <Carousel />
     <img className={styles.photoPraia} src={PraiaGrande} alt="Foto de Praia Grande"/>
     <img className={styles.praiaCapa} src={praiaCapa} alt="Foto de Praia Grande"/>
   </> 

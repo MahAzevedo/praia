@@ -7,7 +7,16 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 
 import Banner from './Components/Banner';
-import { Carousel } from 'react-bootstrap';
+
+import Slider from './Components/Slider/Slider';
+import { register } from 'swiper/element/bundle';
+
+register();
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 
 // import reactLogo from './assets/react.svg'; exemplo de imagem 
@@ -17,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-      <Carousel />
+      <Slider />
       <Banner />
         <Header />
         <main className="AppBody">
