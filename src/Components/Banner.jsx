@@ -1,7 +1,36 @@
-// import React from 'react';
-// import styles from './Banner.module.css';
+import React from 'react';
+import styles from './Banner.module.css';
 // import PraiaGrande from '../Assets/praia-grande.webp?react';
 // import praiaCapa from '../Assets/praiaCapa.jpg?react';
+
+
+const Banner = () => {
+  return (
+    <div className={styles.container}>
+      <div className={}></div>
+    </div>
+  );
+};
+
+export default Banner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
