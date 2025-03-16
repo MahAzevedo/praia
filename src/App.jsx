@@ -6,7 +6,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 
-import Banner from './Components/Banner';
+// import Banner from './Components/Banner';
 
 import Slider from './Components/Slider/Slider';
 import { register } from 'swiper/element/bundle';
@@ -27,13 +27,13 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
       <Slider />
-      <Banner />
+      {/* <Banner /> */}
         <Header />
-        <main className="AppBody">
-          <Routes>
-            <Route path="/" element={<Home />}/>
-          </Routes>
-        </main>
+          <main className="AppBody">
+            <Routes>
+              <Route path="/" element={<Home />}/>
+            </Routes>
+          </main>
         <Footer />
       </BrowserRouter>
     </div>

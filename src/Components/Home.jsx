@@ -4,13 +4,13 @@ import styles from './Home.module.css';
 import House from './House/House';
 import About from './About/About';
 import Tourism from './Tourism/Tourism';
+import Slider from './Slider/Slider';
 
 const Home = () => {
   return (
     <section className={styles.home}>
       {/* <Banner /> */}
-      {/* <div className={styles.feedPhotos}> */}
-      {/* </div> */}
+      {/* <Slider /> */}
       <House />
       <About />
       <Tourism />
