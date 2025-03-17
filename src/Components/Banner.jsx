@@ -1,13 +1,22 @@
 import React from 'react';
 import styles from './Banner.module.css';
 // import PraiaGrande from '../Assets/praia-grande.webp?react';
-// import praiaCapa from '../Assets/praiaCapa.jpg?react';
+import praiaCapa from '../Assets/praiaCapa.jpg?react';
 
 
 const Banner = () => {
   return (
     <div className={styles.container}>
-      <div className={}></div>
+      <div className={styles.carousel}>
+        <div className={styles.item}>
+          <div className={styles.image}>
+            <img src="./src/Assets/praiaCapa.jpg" alt="Praia 1" />
+          </div>
+          <div className={styles.info}>
+            <span className={styles.msg}>Praia Arraial</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-      <Slider />
+      {/* <Slider /> */}
       {/* <Banner /> */}
         <Header />
           <main className="AppBody">
