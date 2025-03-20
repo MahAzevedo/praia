@@ -16,6 +16,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Carousel from './Components/Carousel/Carousel';
+import { slides } from './Data/CarouselData.json';
 
 
 
@@ -28,6 +30,7 @@ const App = () => {
       <BrowserRouter>
       {/* <Slider /> */}
       {/* <Banner /> */}
+      <Carousel />
         <Header />
           <main className="AppBody">
             <Routes>
