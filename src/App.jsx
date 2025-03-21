@@ -2,9 +2,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Home from './Components/Home';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import Home from './Components/Home/Home';
 
 // import Banner from './Components/Banner';
 
@@ -16,8 +16,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import Carousel from './Components/Carousel/Carousel';
-import { slides } from './Data/CarouselData.json';
+import TesteCarousel from './Components/TesteCarousel/TesteCarousel';
+// import Carousel from './Components/Carousel/Carousel';
+// import { slides } from './Data/CarouselData.json';
 
 
 
@@ -30,14 +31,15 @@ const App = () => {
       <BrowserRouter>
       {/* <Slider /> */}
       {/* <Banner /> */}
-      <Carousel />
-        <Header />
+      {/* <Carousel /> */}
+        {/* <Header /> */}
+        <TesteCarousel />
           <main className="AppBody">
             <Routes>
               <Route path="/" element={<Home />}/>
             </Routes>
           </main>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   )
