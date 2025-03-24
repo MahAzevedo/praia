@@ -17,6 +17,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import TesteCarousel from './Components/TesteCarousel/TesteCarousel';
+import BootstrapCarousel from './Components/BootstrapCarousel/BootstrapCarousel';
 // import Carousel from './Components/Carousel/Carousel';
 // import { slides } from './Data/CarouselData.json';
 
@@ -34,6 +35,7 @@ const App = () => {
       {/* <Carousel /> */}
         {/* <Header /> */}
         <TesteCarousel />
+        {/* <BootstrapCarousel /> */}
           <main className="AppBody">
             <Routes>
               <Route path="/" element={<Home />}/>
