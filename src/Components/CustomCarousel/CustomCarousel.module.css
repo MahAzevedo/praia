@@ -1,0 +1,23 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-slide img {
+    width: 600px;
+    height: 300px;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f73;
+  }
+  

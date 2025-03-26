@@ -5,23 +5,24 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
+import CustomCarousel from './Components/CustomCarousel/CustomCarousel';
 
 // import Banner from './Components/Banner';
 
-import Slider from './Components/Slider/Slider';
-import { register } from 'swiper/element/bundle';
+// import Slider from './Components/Slider/Slider';
+// import { register } from 'swiper/element/bundle';
 
-register();
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import TesteCarousel from './Components/TesteCarousel/TesteCarousel';
-import BootstrapCarousel from './Components/BootstrapCarousel/BootstrapCarousel';
+// register();
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
+// import TesteCarousel from './Components/TesteCarousel/TesteCarousel';
+// import BootstrapCarousel from './Components/BootstrapCarousel/BootstrapCarousel';
 // import Carousel from './Components/Carousel/Carousel';
 // import { slides } from './Data/CarouselData.json';
 
-
+// import Tailwind from './Components/Tailwind/Tailwind';
 
 // import reactLogo from './assets/react.svg'; exemplo de imagem 
 // import viteLogo from '/vite.svg';
@@ -34,8 +35,10 @@ const App = () => {
       {/* <Banner /> */}
       {/* <Carousel /> */}
         {/* <Header /> */}
-        <TesteCarousel />
+        {/* <TesteCarousel /> */}
         {/* <BootstrapCarousel /> */}
+        {/* <Tailwind /> */}
+        <CustomCarousel />
           <main className="AppBody">
             <Routes>
               <Route path="/" element={<Home />}/>
