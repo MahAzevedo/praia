@@ -21,11 +21,11 @@ const CustomCarousel = () => {
 
   return (
     <div className="carousel">
-      <button onClick={prevSlide}>Prev</button>
+      <button className="positionLeft" onClick={prevSlide}>Prev</button>
       <div className="carousel-slide">
         <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
       </div>
-      <button onClick={nextSlide}>Next</button>
+      <button className="positionRight" onClick={nextSlide}>Next</button>
     </div>
   );
 };

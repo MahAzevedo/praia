@@ -23,7 +23,75 @@ button:hover {
 }
   
 img {
-    /* width: 100%; */
     width: 1440px;
     height: 576px;
 }
+
+.positionLeft {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.positionRight {}
+
+button {
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* .carousel-container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-buttons button:hover {
+    background-color: #0056b3;
+  } */
+  
