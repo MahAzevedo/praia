@@ -38,7 +38,7 @@ const App = () => {
         {/* <TesteCarousel /> */}
         {/* <BootstrapCarousel /> */}
         {/* <Tailwind /> */}
-        <CustomCarousel />
+        {/* <CustomCarousel /> */}
           <main className="AppBody">
             <Routes>
               <Route path="/" element={<Home />}/>
