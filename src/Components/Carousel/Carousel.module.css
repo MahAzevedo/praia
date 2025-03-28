@@ -1,17 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
 }
 
-body {
+body {}
+
+.container {
     width: 100%;
     min-width: 100vh;
     background-color: #e1e1e1;
     color: #1e1e1e;
 }
-
-.container {}
 
 .carousel {
     display: flex;
