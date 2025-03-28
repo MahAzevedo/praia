@@ -3,35 +3,47 @@ import styles from './Carousel.module.css';
 // import praiaCapa from '/src/Assets/praiaCapa.jpg?react'; funciona assim também :)
 import praiaCapa from '/src/Assets/praiaCapa.jpg'; 
 // e funciona assim também :)
-import chevron from '/src/Assets/chevron.png';
+import chevron from '/src/Assets/chevron.svg';
+
 
 
 const Carousel = () => {
+  const handleLeftClick = (event) => {
+    event.preventDefault()
+  }
+  
+  const handleRightClick = (event) => {
+    event.preventDefault()
+  }
+
+
   return (
     <div className={styles.container}>
       <div className={styles.carousel}>
-        <img src={praiaCapa} alt="Praia de Arraial do Cabo" />
+        <img className={styles.image} src={praiaCapa} alt="Praia de Arraial do Cabo" />
       </div>
-      <span className={styles.spanInfo}>
-        Foto Aérea da Praia de arraial do Cabo
-      </span>
+      <div className={styles.info}>
+        <span className={styles.spanInfo}>
+          Foto Aérea da Praia de arraial do Cabo
+        </span>
+      </div>
       <div className={styles.buttons}>
-        <button className={styles.buttonLeft}>
-          Esquerda 
-          <img src={chevron} alt="Chevron esquerda" />
+        <button className={styles.buttonLeft} onClick={handleLeftClick}>
+          <img className={styles.buttonImgLeft} src={chevron} alt="Chevron esquerda" />
         </button>
-        <button className={styles.buttonRight}>
-          Direita 
-          <img src={chevron} alt="Chevron direita" />
+        <button className={styles.buttonRight} onClick={handleRightClick}>
+          <img className={styles.buttonImgRight} src={chevron} alt="Chevron direita" />
         </button>
       </div>
     </div>
   );
 };
 
+
+
+
+
 {/*
-
-
 
 <div className={styles.container}>
        <div className={styles.carousel}>

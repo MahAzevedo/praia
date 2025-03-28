@@ -24,22 +24,45 @@ body {}
     height: 100%;
     object-fit: cover;
 }
-
+.info {
+    z-index: 900;
+    position: relative;
+    margin-top: -4rem;
+}
 .spanInfo {
-    display: flex;
+    /* display: flex; */
+    display: block;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    z-index: 100;
-    padding-top: 10px;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: aqua;
 }
 .buttons {
-    /* background-color: white;
-    margin: 10px;
-    padding: 10px;
-    width: 280px; */
+    margin-top: -18rem;
+    z-index: 1000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    /* width: 100%; */
+    color: transparent;
 }
 .buttonLeft {}
 .buttonRight {}
 
-.buttonImgLeft {}
-.buttonImgRight {}
+.buttonImgLeft {
+    transform: rotate(-180deg);
+    width: 12vh;
+    border: none;
+    background-color: transparent;
+}
+.buttonImgRight {
+    width: 12vh;
+}
