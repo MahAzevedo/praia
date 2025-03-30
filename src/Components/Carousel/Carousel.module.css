@@ -62,6 +62,7 @@ body {}
     width: 12vh;
     border: none;
     background-color: transparent;
+    color: white;
 }
 .buttonImgRight {
     width: 12vh;
