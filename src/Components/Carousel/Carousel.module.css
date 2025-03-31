@@ -41,14 +41,25 @@ body {}
     letter-spacing: 1px;
     color: aqua;
 }
+
 button {
-    /* opacity: 0; */
+    /* background-color: transparent; */
+    /* margin-top: -18rem; */
+    /* cursor: pointer; */
+    /* justify-content: space-between; */
+    /* display: flex; */
+    /* padding: 22px; */
+    border: none;
+    /* border-radius: 55px; */
 }
 .buttons {
+    border: none;
+    border-radius: 55px;
     margin-top: -18rem;
     cursor: pointer;
     justify-content: space-between;
     display: flex;
+    padding: 22px;
 
     /* z-index: 1000; */
     /* position: relative; */
@@ -80,13 +91,14 @@ button {
 .buttonImgLeft {
     transform: rotate(-180deg);
     width: 8vh;
+    opacity: 0.5;
     border: none;
     background-color: transparent;
-    color: white;
-    opacity: 0.5;
 }
 .buttonImgRight {
     width: 8vh;
     opacity: 0.5;
+    border: none;
+    background-color: transparent;
 }
 
