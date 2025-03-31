@@ -3,7 +3,7 @@ import styles from './Carousel.module.css';
 // import praiaCapa from '/src/Assets/praiaCapa.jpg?react'; funciona assim também :)
 import praiaCapa from '/src/Assets/praiaCapa.jpg'; 
 // e funciona assim também :)
-import chevron from '/src/Assets/chevron.png';
+import chevron from '/src/Assets/chevron1.png';
 
 
 
