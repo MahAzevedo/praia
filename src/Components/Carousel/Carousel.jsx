@@ -6,9 +6,6 @@ import praiaCapa from '/src/Assets/praiaCapa.jpg';
 import chevron from '/src/Assets/chevron.png';
 // import chevron from '/src/Assets/chevron1.png';
 
-
-
-
 const Carousel = () => {
   const handleLeftClick = (event) => {
     event.preventDefault()
