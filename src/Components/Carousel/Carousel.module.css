@@ -10,7 +10,6 @@ body {}
     width: 100%;
     min-width: 100vh;
     background-color: #e1e1e1;
-    color: #1e1e1e;
 }
 
 .carousel {
@@ -30,7 +29,6 @@ body {}
     margin-top: -4rem;
 }
 .spanInfo {
-    /* display: flex; */
     display: block;
     text-align: center;
     align-items: center;
@@ -42,20 +40,21 @@ body {}
     color: aqua;
 }
 
-button {
+/* button {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: none;
-}
+} */
 
-.buttons {
+.buttons, button {
     cursor: pointer;
-    margin-top: -18rem;
+    margin-top: -9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 10rem;
+    border: none;
 }
 .buttonLeft {}
 .buttonRight {}
@@ -63,8 +62,11 @@ button {
 .buttonImgLeft {
     transform: rotate(-180deg);
     opacity: 0.5;
+    /* margin: -34px 26px; */
+    margin: -3rem 2rem;
 }
 
 .buttonImgRight {
     opacity: 0.5;
+    margin: -34px 2rem;
 }
