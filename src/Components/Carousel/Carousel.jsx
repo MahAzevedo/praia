@@ -26,6 +26,7 @@ const Carousel = () => {
           Foto Aérea da Praia de arraial do Cabo
         </span>
       </div>
+      <div className={styles.buttonsContainer}>
       <div className={styles.buttons}>
         <button className={styles.buttonLeft} onClick={handleLeftClick}>
           <img className={styles.buttonImgLeft} src={chevron} alt="Chevron esquerda" />
@@ -33,6 +34,7 @@ const Carousel = () => {
         <button className={styles.buttonRight} onClick={handleRightClick}>
           <img className={styles.buttonImgRight} src={chevron} alt="Chevron direita" />
         </button>
+      </div>
       </div>
     </div>
   );

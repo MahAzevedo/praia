@@ -47,6 +47,11 @@ body {}
     border: none;
 } */
 
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .buttons, button {
     cursor: pointer;
     margin-top: -9rem;
