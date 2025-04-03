@@ -1,11 +1,3 @@
-* {
-    /* margin: 0; */
-    /* padding: 0; */
-    /* box-sizing: border-box; */
-}
-
-body {}
-
 .container {
     width: 100%;
     min-width: 100vh;
@@ -20,12 +12,12 @@ body {}
 
 .image {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
 }
 .info {
-    z-index: 900;
-    position: relative;
+    /* z-index: 900; */
+    /* position: relative; */
     margin-top: -4rem;
 }
 .spanInfo {
@@ -40,41 +32,55 @@ body {}
     color: aqua;
 }
 
-/* Button parte */
-
 .buttonsContainer, button {
     cursor: pointer;
-    margin-top: -9rem;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    width: 10rem;
-    border: none;
-}
-.buttonLeft {
-    transform: rotate(-180deg);
-    opacity: 0.5;
-    /* margin: -34px 26px; */
-    margin: -3rem 2rem;
-}
-.buttonRight {
-    opacity: 0.5;
-    margin: -34px 2rem;
-}
-
-/* Left */
-/* .buttonImg { */
-    /* transform: rotate(-180deg); */
-    /* opacity: 0.5; */
-    /* margin: -34px 26px; */
-    /* margin: -3rem 2rem; */
-/* } */
-
-/* Right */
-.buttonImg {
-    opacity: 0.5;
-    margin: -34px 2rem;
+    margin-top: -15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: none;
+    /* position: block; */
 }
+.buttonLeft {
+    transform: rotate(-180deg);
+    opacity: 0.7;
+    background-color: transparent;
+}
+.buttonRight {
+    opacity: 0.7;
+    background-color: transparent;  
+}
+
+.buttonImg {
+    opacity: 0.7;
+    border-radius: 7rem;
+}
+
+/* .buttonsContainer:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+} */
+
+/* .visually-hidden, .visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+} */

@@ -8,11 +8,11 @@ import chevron from '/src/Assets/chevron.png';
 
 const Carousel = () => {
   const handleLeftClick = (event) => {
-    event.preventDefault()
+    event.preventDefault();
   }
   
   const handleRightClick = (event) => {
-    event.preventDefault()
+    event.preventDefault();
   }
 
 
