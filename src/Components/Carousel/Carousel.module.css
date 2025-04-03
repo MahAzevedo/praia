@@ -40,33 +40,41 @@ body {}
     color: aqua;
 }
 
-/* button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: none;
-} */
+/* Button parte */
 
-.buttons, button {
+.buttonsContainer, button {
     cursor: pointer;
     margin-top: -9rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     width: 10rem;
     border: none;
 }
-.buttonLeft {}
-.buttonRight {}
-
-.buttonImgLeft {
+.buttonLeft {
     transform: rotate(-180deg);
     opacity: 0.5;
     /* margin: -34px 26px; */
     margin: -3rem 2rem;
 }
-
-.buttonImgRight {
+.buttonRight {
     opacity: 0.5;
     margin: -34px 2rem;
+}
+
+/* Left */
+/* .buttonImg { */
+    /* transform: rotate(-180deg); */
+    /* opacity: 0.5; */
+    /* margin: -34px 26px; */
+    /* margin: -3rem 2rem; */
+/* } */
+
+/* Right */
+.buttonImg {
+    opacity: 0.5;
+    margin: -34px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
