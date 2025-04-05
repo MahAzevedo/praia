@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import styles from './Carousel.module.css';
 // import praiaCapa from '/src/Assets/praiaCapa.jpg?react'; funciona assim também :)
 import praiaCapa from '/src/Assets/praiaCapa.jpg'; 
@@ -15,6 +15,12 @@ import image5 from '/src/image/praia09.avif';
 // src\image\praia06.avif
 
 const Carousel = () => {
+  useEffect(() => {
+    fetch('https://unsplash.com/pt-br/s/fotografias/arraial-do-cabo?license=free.json')
+    .then((response) => response.json())
+    .then(console.log);
+  }, []);
+
   const images = [ image1, image2, image3, image4, image5 ];
 
   const buttonsContainer = useRef(null);
