@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Carousel.module.css';
 // import praiaCapa from '/src/Assets/praiaCapa.jpg?react'; funciona assim também :)
 import praiaCapa from '/src/Assets/praiaCapa.jpg'; 
@@ -15,10 +15,12 @@ import image5 from '/src/image/praia09.avif';
 // src\image\praia06.avif
 
 const Carousel = () => {
+  const [data,setData] = useState([]);
+
   useEffect(() => {
-    fetch('https://unsplash.com/pt-br/s/fotografias/arraial-do-cabo?license=free.json')
+    fetch('https://unsplash.com/pt-br/s/fotografias/arraial-do-cabo?license=free')
     .then((response) => response.json())
-    .then(console.log);
+    .then(setData);
   }, []);
 
   const images = [ image1, image2, image3, image4, image5 ];
@@ -35,6 +37,7 @@ const Carousel = () => {
     buttonsContainer.current.scrollLeft += buttonsContainer.current.offsetWidth;
   };
 
+  if(!data || !data.length) return null;
 
   return (
     <div className={styles.container}>
