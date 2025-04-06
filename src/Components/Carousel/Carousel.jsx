@@ -37,8 +37,6 @@ const Carousel = () => {
     buttonsContainer.current.scrollLeft += buttonsContainer.current.offsetWidth;
   };
 
-  if(!data || !data.length) return null;
-
   return (
     <div className={styles.container}>
       <div className={styles.carousel}>
