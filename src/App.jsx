@@ -33,7 +33,6 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
       {/* <Slider /> */}
-      {/* <Banner /> */}
       <Carousel />
         {/* <Header /> */}
         {/* <TesteCarousel /> */}
