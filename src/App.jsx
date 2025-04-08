@@ -5,10 +5,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
-// import CustomCarousel from './Components/CustomCarousel/CustomCarousel';
+
 import Carousel from './Components/Carousel/Carousel';
 
-// import Banner from './Components/Banner';
+
 
 
 // import { register } from 'swiper/element/bundle';
@@ -36,7 +36,6 @@ const App = () => {
         {/* <Header /> */}
         {/* <TesteCarousel /> */}
         {/* <Tailwind /> */}
-        {/* <CustomCarousel /> */}
           <main className="AppBody">
             <Routes>
               <Route path="/" element={<Home />}/>
