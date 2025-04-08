@@ -10,7 +10,7 @@ import Carousel from './Components/Carousel/Carousel';
 
 // import Banner from './Components/Banner';
 
-// import Slider from './Components/Slider/Slider';
+
 // import { register } from 'swiper/element/bundle';
 
 // register();
@@ -19,7 +19,7 @@ import Carousel from './Components/Carousel/Carousel';
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 // import TesteCarousel from './Components/TesteCarousel/TesteCarousel';
-// import BootstrapCarousel from './Components/BootstrapCarousel/BootstrapCarousel';
+
 // import Carousel from './Components/Carousel/Carousel';
 // import { slides } from './Data/CarouselData.json';
 
@@ -32,11 +32,9 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-      {/* <Slider /> */}
       <Carousel />
         {/* <Header /> */}
         {/* <TesteCarousel /> */}
-        {/* <BootstrapCarousel /> */}
         {/* <Tailwind /> */}
         {/* <CustomCarousel /> */}
           <main className="AppBody">
