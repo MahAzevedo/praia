@@ -1,4 +1,3 @@
-// import { useState } from 'react';
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -9,22 +8,6 @@ import Home from './Components/Home/Home';
 import Carousel from './Components/Carousel/Carousel';
 
 
-
-
-// import { register } from 'swiper/element/bundle';
-
-// register();
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
-// import TesteCarousel from './Components/TesteCarousel/TesteCarousel';
-
-// import Carousel from './Components/Carousel/Carousel';
-// import { slides } from './Data/CarouselData.json';
-
-// import Tailwind from './Components/Tailwind/Tailwind';
-
 // import reactLogo from './assets/react.svg'; exemplo de imagem 
 // import viteLogo from '/vite.svg';
 
@@ -34,8 +17,6 @@ const App = () => {
       <BrowserRouter>
       <Carousel />
         {/* <Header /> */}
-        {/* <TesteCarousel /> */}
-        {/* <Tailwind /> */}
           <main className="AppBody">
             <Routes>
               <Route path="/" element={<Home />}/>
