@@ -12,23 +12,22 @@ import image3 from '/src/image/praia07.avif';
 import image4 from '/src/image/praia08.avif';
 import image5 from '/src/image/praia09.avif';
 
-// src\image\praia06.avif
 
 const Carousel = () => {
 
   const images = [ image1, image2, image3, image4, image5 ];
 
-  // const buttonsContainer = useRef(null);
+  const buttonsContainer = useRef(null);
 
-  // const handleLeftClick = (event) => {
-  //   event.preventDefault();
-  //   buttonsContainer.current.scrollLeft -= buttonsContainer.current.offsetWidth;
-  // };
+  const handleLeftClick = (event) => {
+    event.preventDefault();
+    buttonsContainer.current.scrollLeft -= buttonsContainer.current.offsetWidth;
+  };
   
-  // const handleRightClick = (event) => {
-  //   event.preventDefault();
-  //   buttonsContainer.current.scrollLeft += buttonsContainer.current.offsetWidth;
-  // };
+  const handleRightClick = (event) => {
+    event.preventDefault();
+    buttonsContainer.current.scrollLeft += buttonsContainer.current.offsetWidth;
+  };
 
   return (
     <div className={styles.container}>
