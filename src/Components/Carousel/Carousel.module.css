@@ -59,7 +59,7 @@ body {}
 
 .buttonImgLeft {
     transform: rotate(-180deg);
-    width: 12vh;
+    width: 8vh;
     border: none;
     background-color: transparent;
     color: white;
@@ -67,3 +67,4 @@ body {}
 .buttonImgRight {
     width: 12vh;
 }
+
